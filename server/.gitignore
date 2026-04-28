@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.local
+.env.*.local
+*.db
+nyumba_link.db
+uploads/*
+!uploads/.gitkeep
+.DS_Store
+*.log
+npm-debug.log*
+yarn-error.log*
+dist/
+build/
