@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect } from 'react';
 import axios from 'axios';
-axios.defaults.baseURL = 'https://nairobi-houses-backend.onrender.com';
+axios.defaults.baseURL = import.meta.env.VITE_API_URL || 'https://nairobi-houses-backend-web-app.onrender.com';
 
 const AuthContext = createContext(null);
 
